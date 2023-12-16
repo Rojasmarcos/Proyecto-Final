@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0d553d;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "EB Garamond", serif;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 50px;
+    color: white;
+}
+
+select,
+input {
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    border: 0;
+}
+
+span {
+    display: inline-block;
+    width: 150px;
+    color: white;
+}
+
+#form-box {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: #333333;
+    padding: 30px 0;
+    width: 50%;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    background-color: #0d553d;
+    position: relative;
+    top: 0;
+    padding: 20px;
+    text-align: center;
+    line-height: 24px;
+    width: 200px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: auto;
+    color: white;
+}
+
+.tabla {
+    background-color: #333333;
+    width: 50%;
+    text-align: center;
+}
+
+.fila {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+th {
+    color: #22db9e;
+}
+
+tr,
+th,
+td {
+    border: 1px solid white;
+    padding: 5px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>YR Nails Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
+    <script src="javascript.js" defer></script>
+</head>
+
+<body>
+    <h1>YR Nails Studio</h1>
+    <div id="form-box">
+        <h2>Registrar Servicio</h2>
+        <form>
+            <div>
+                <span>Tratamiento:</span>
+                <select id="tratamiento">
+                    <option value="esmaltado">Esmaltado</option>
+                    <option value="exfoliacion">Exfoliacion</option>
+                    <option value="empuje de cuticula">Empuje de cuticula</option>
+                </select>
+            </div>
+            <div>
+                <span>Nombre y Apellido:</span> <input type="text" id="nombre" class="input">
+            </div>
+            <div>
+                <span>Fecha:</span> <input type="date" class="input" id="fecha">
+            </div>
+            <div>
+                <span>Costo:</span> <input type="number" class="input" id="costo">
+            </div>
+            <div id="button" class="button" onclick="agendar()">Agendar</div>
+        </form>
+    </div>
+    <table id="tabla" class="tabla">
+        <tr>
+            <th>Tratamiento</th>
+            <th>Nombre</th>
+            <th>Fecha</th>
+            <th>Costo</th>
+        </tr>
+    </table>
+</body>
+
+</html>
